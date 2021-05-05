@@ -19,7 +19,7 @@ namespace Couse.Entities
             Date = date;
             ValuePerHour = valuePerHour;
             Hours = hours;
-        }
+        } 
 
         public double TotalValue()
         {
