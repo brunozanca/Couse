@@ -43,7 +43,7 @@ namespace Couse
             int year = int.Parse(monthAndYear.Substring(3)); //cut position 3 at end
             Console.WriteLine("Name: " + worker.Name);
             Console.WriteLine("Department: " + worker.Department.Name);
-            Console.WriteLine("Income for " + monthAndYear + ": " + worker.Income(year,month).ToString("F2", CultureInfo.InvariantCulture);
+            Console.WriteLine("Income for " + monthAndYear + ": " + worker.Income(year,month).ToString("F2", CultureInfo.InvariantCulture));
 
         }
     }
